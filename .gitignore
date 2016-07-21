@@ -1,0 +1,4 @@
+*.o
+main
+*.hi
+.vagrant/
