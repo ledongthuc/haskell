@@ -6,3 +6,5 @@ Save example that we are done. You can search by Table Index.
  - [Math operators](example/math_operator.hs)
  - [Boolean](example/boolean.hs)
  - [Calling function](example/calling_function.hs)
+ - [Function define](example/function_define.hs)
+ - [List](example/list.hs)
