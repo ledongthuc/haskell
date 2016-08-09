@@ -17,3 +17,4 @@ Save example that we are done. You can search by Table Index.
  - [List](example/list.hs)
  - [List Comprehension](example/list_comprehension.hs)
  - [Tuple](example/tuple.hs)
+ - [Matching Pattern](example/matching_pattern.hs)
