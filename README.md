@@ -7,7 +7,7 @@ Save example that we are done. You can search by Table Index.
     """
     add_column :tbl_dispensary, :status, :dispensary_status, default: 'published'
 
-# TABLE OF CONTENT 
+# Fundamental 
 
  - [Hello world](example/hello_world.hs)
  - [Math operators](example/math_operator.hs)
@@ -21,3 +21,7 @@ Save example that we are done. You can search by Table Index.
  - [Guard](example/guard.hs)
  - [Let](example/let.hs)
  - [Recursive](example/recursive.hs)
+
+# Common functions 
+
+ - [Replicate](example/common_functions/replicate.hs)
