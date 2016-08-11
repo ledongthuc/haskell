@@ -18,3 +18,6 @@ Save example that we are done. You can search by Table Index.
  - [List Comprehension](example/list_comprehension.hs)
  - [Tuple](example/tuple.hs)
  - [Matching Pattern](example/matching_pattern.hs)
+ - [Guard](example/guard.hs)
+ - [Let](example/let.hs)
+ - [Recursive](example/recursive.hs)
