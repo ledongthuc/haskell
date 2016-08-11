@@ -25,3 +25,5 @@ Save example that we are done. You can search by Table Index.
 # Common functions 
 
  - [Replicate](example/common_functions/replicate.hs)
+ - [Revert](example/common_functions/revert.hs)
+ - [Take](example/common_functions/take.hs)
