@@ -24,6 +24,7 @@ Save example that we are done. You can search by Table Index.
 
 # Common functions 
 
+ - [Elem](example/common_functions/elem.hs)
  - [Replicate](example/common_functions/replicate.hs)
  - [Revert](example/common_functions/revert.hs)
  - [Repeat](example/common_functions/repeat.hs)
