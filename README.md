@@ -21,6 +21,7 @@ Save example that we are done. You can search by Table Index.
  - [Guard](example/guard.hs)
  - [Let](example/let.hs)
  - [Recursive](example/recursive.hs)
+ - [Curried Function](example/curried_function.hs)
 
 # Common functions 
 
