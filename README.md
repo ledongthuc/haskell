@@ -31,3 +31,4 @@ Save example that we are done. You can search by Table Index.
  - [Repeat](example/common_functions/repeat.hs)
  - [Take](example/common_functions/take.hs)
  - [Zip](example/common_functions/zip.hs)
+ - [ZipWith](example/common_functions/zipWith.hs)
