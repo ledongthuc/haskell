@@ -29,6 +29,8 @@ list2 = [[4,5,6]] ++ [[1,2,3],[4,5,10]]
 -- result = [3,6..5*3]
 -- result = take 10 ( cycle [1,2] )
 -- result = take 10 ( repeat 5 )
-result = take 10 ( replicate 5 3 )
+-- result = take 10 ( replicate 5 3 )
 
+result = head( filter p [99999,99998..3829] )
+  where p x = x `mod` 3829 == 0
 main = print(result)
