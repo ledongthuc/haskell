@@ -5,7 +5,7 @@ Save example that we are done. You can search by Table Index.
  - [Hello world](examples/hello_world.hs)
  - [Simple Math](examples/simple_mathermatics.hs)
  - [Boolean](examples/boolean.hs)
- - [Calling function](examples/calling_function.hs)
+ - [Function calling](examples/function_calling.hs)
  - [Function define](examples/function_define.hs)
  - [List](examples/list.hs)
  - [List Comprehension](examples/list_comprehension.hs)
