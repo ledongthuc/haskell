@@ -3,7 +3,7 @@ Save example that we are done. You can search by Table Index.
 # Fundamental 
 
  - [Hello world](examples/hello_world.hs)
- - [Math operators](examples/math_operator.hs)
+ - [Simple Math](examples/simple_mathermatics.hs)
  - [Boolean](examples/boolean.hs)
  - [Calling function](examples/calling_function.hs)
  - [Function define](examples/function_define.hs)
