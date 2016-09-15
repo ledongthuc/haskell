@@ -22,7 +22,7 @@ Save example that we are done. You can search by Table Index.
 
  - [Elem](examples/common_functions/elem.hs)
  - [Replicate](examples/common_functions/replicate.hs)
- - [Revert](examples/common_functions/revert.hs)
+ - [Reverse](examples/common_functions/reverse.hs)
  - [Repeat](examples/common_functions/repeat.hs)
  - [Take](examples/common_functions/take.hs)
  - [Zip](examples/common_functions/zip.hs)
