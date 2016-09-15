@@ -21,12 +21,13 @@ Save example that we are done. You can search by Table Index.
 # Common functions 
 
  - [Elem](examples/common_functions/elem.hs)
+ - [Filter](examples/common_functions/filter.hs)
+ - [Flip](examples/common_functions/flip.hs)
+ - [Map](examples/common_functions/map.hs)
+ - [Product](examples/common_functions/product.hs)
  - [Replicate](examples/common_functions/replicate.hs)
  - [Reverse](examples/common_functions/reverse.hs)
  - [Repeat](examples/common_functions/repeat.hs)
  - [Take](examples/common_functions/take.hs)
  - [Zip](examples/common_functions/zip.hs)
  - [ZipWith](examples/common_functions/zipWith.hs)
- - [Flip](examples/common_functions/flip.hs)
- - [Map](examples/common_functions/map.hs)
- - [Filter](examples/common_functions/filter.hs)
