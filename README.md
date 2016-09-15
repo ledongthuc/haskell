@@ -16,6 +16,7 @@ Save example that we are done. You can search by Table Index.
  - [Recursive](examples/recursive.hs)
  - [Curried Function](examples/curried_function.hs)
  - [Lambdas](examples/labdas.hs)
+ - [Fold](examples/fold.hs)
 
 # Common functions 
 
