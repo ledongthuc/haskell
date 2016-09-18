@@ -20,6 +20,7 @@ Save example that we are done. You can search by Table Index.
 
 # Common functions 
 
+ - [And](examples/common_functions/and.hs)
  - [Elem](examples/common_functions/elem.hs)
  - [Filter](examples/common_functions/filter.hs)
  - [Flip](examples/common_functions/flip.hs)
