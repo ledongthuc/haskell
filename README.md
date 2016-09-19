@@ -1,40 +1,46 @@
+# Development setup
+
+  1. Install docker
+  2. Run file `start_docker.sh`. It's included ghc, ghci, stack, cabal, ...
+
 Save example that we are done. You can search by Table Index.
 
-# Basic features
+# Example
+## Core features
 
- - [Hello world](examples/hello_world.hs)
- - [Simple Math](examples/simple_mathermatics.hs)
- - [Boolean](examples/boolean.hs)
- - [Function calling](examples/function_calling.hs)
- - [Function define](examples/function_define.hs)
- - [List](examples/list.hs)
- - [List Comprehension](examples/list_comprehension.hs)
- - [Tuple](examples/tuple.hs)
- - [Matching Pattern](examples/matching_pattern.hs)
- - [Guard](examples/guard.hs)
- - [Let](examples/let.hs)
- - [Recursive](examples/recursive.hs)
- - [Curried Function](examples/curried_function.hs)
- - [Lambdas](examples/labdas.hs)
- - [Fold](examples/fold.hs)
- - [Function Application](examples/function_application.hs)
- - [Import](examples/import.hs)
+ - [Hello world](src/hello_world.hs)
+ - [Simple Math](src/simple_mathermatics.hs)
+ - [Boolean](src/boolean.hs)
+ - [Function calling](src/function_calling.hs)
+ - [Function define](src/function_define.hs)
+ - [List](src/list.hs)
+ - [List Comprehension](src/list_comprehension.hs)
+ - [Tuple](src/tuple.hs)
+ - [Matching Pattern](src/matching_pattern.hs)
+ - [Guard](src/guard.hs)
+ - [Let](src/let.hs)
+ - [Recursive](src/recursive.hs)
+ - [Curried Function](src/curried_function.hs)
+ - [Lambdas](src/labdas.hs)
+ - [Fold](src/fold.hs)
+ - [Function Application](src/function_application.hs)
+ - [Import](src/import.hs)
 
 # Libraries
- - [Data.List](examples/libraries/Data.List.hs)
+ - [Data.List](src/libraries/Data.List.hs)
 
 # Re-implement
 ## Prelude
 
- - [And](examples/pre-implement/prelude/and.hs)
- - [Elem](examples/pre-implement/prelude/elem.hs)
- - [Filter](examples/pre-implement/prelude/filter.hs)
- - [Flip](examples/pre-implement/prelude/flip.hs)
- - [Map](examples/pre-implement/prelude/map.hs)
- - [Product](examples/pre-implement/prelude/product.hs)
- - [Replicate](examples/pre-implement/prelude/replicate.hs)
- - [Reverse](examples/pre-implement/prelude/reverse.hs)
- - [Repeat](examples/pre-implement/prelude/repeat.hs)
- - [Take](examples/pre-implement/prelude/take.hs)
- - [Zip](examples/pre-implement/prelude/zip.hs)
- - [ZipWith](examples/pre-implement/prelude/zipWith.hs)
+ - [And](src/pre-implement/prelude/and.hs)
+ - [Elem](src/pre-implement/prelude/elem.hs)
+ - [Filter](src/pre-implement/prelude/filter.hs)
+ - [Flip](src/pre-implement/prelude/flip.hs)
+ - [Map](src/pre-implement/prelude/map.hs)
+ - [Product](src/pre-implement/prelude/product.hs)
+ - [Replicate](src/pre-implement/prelude/replicate.hs)
+ - [Reverse](src/pre-implement/prelude/reverse.hs)
+ - [Repeat](src/pre-implement/prelude/repeat.hs)
+ - [Take](src/pre-implement/prelude/take.hs)
+ - [Zip](src/pre-implement/prelude/zip.hs)
+ - [ZipWith](src/pre-implement/prelude/zipWith.hs)
