@@ -18,6 +18,7 @@ Save example that we are done. You can search by Table Index.
  - [Lambdas](examples/labdas.hs)
  - [Fold](examples/fold.hs)
  - [Function Application](examples/function_application.hs)
+ - [Import](examples/import.hs)
 
 # Common functions 
 
