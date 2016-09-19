@@ -1,6 +1,6 @@
 Save example that we are done. You can search by Table Index.
 
-# Fundamental 
+# Basic features
 
  - [Hello world](examples/hello_world.hs)
  - [Simple Math](examples/simple_mathermatics.hs)
@@ -20,17 +20,21 @@ Save example that we are done. You can search by Table Index.
  - [Function Application](examples/function_application.hs)
  - [Import](examples/import.hs)
 
-# Common functions 
+# Libraries
+ - [Data.List](examples/libraries/Data.List.hs)
 
- - [And](examples/common_functions/and.hs)
- - [Elem](examples/common_functions/elem.hs)
- - [Filter](examples/common_functions/filter.hs)
- - [Flip](examples/common_functions/flip.hs)
- - [Map](examples/common_functions/map.hs)
- - [Product](examples/common_functions/product.hs)
- - [Replicate](examples/common_functions/replicate.hs)
- - [Reverse](examples/common_functions/reverse.hs)
- - [Repeat](examples/common_functions/repeat.hs)
- - [Take](examples/common_functions/take.hs)
- - [Zip](examples/common_functions/zip.hs)
- - [ZipWith](examples/common_functions/zipWith.hs)
+# Re-implement
+## Prelude
+
+ - [And](examples/pre-implement/prelude/and.hs)
+ - [Elem](examples/pre-implement/prelude/elem.hs)
+ - [Filter](examples/pre-implement/prelude/filter.hs)
+ - [Flip](examples/pre-implement/prelude/flip.hs)
+ - [Map](examples/pre-implement/prelude/map.hs)
+ - [Product](examples/pre-implement/prelude/product.hs)
+ - [Replicate](examples/pre-implement/prelude/replicate.hs)
+ - [Reverse](examples/pre-implement/prelude/reverse.hs)
+ - [Repeat](examples/pre-implement/prelude/repeat.hs)
+ - [Take](examples/pre-implement/prelude/take.hs)
+ - [Zip](examples/pre-implement/prelude/zip.hs)
+ - [ZipWith](examples/pre-implement/prelude/zipWith.hs)
