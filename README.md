@@ -17,6 +17,7 @@ Save example that we are done. You can search by Table Index.
  - [Curried Function](examples/curried_function.hs)
  - [Lambdas](examples/labdas.hs)
  - [Fold](examples/fold.hs)
+ - [Function Application](examples/function_application.hs)
 
 # Common functions 
 
