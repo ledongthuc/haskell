@@ -3,9 +3,11 @@
   1. Install docker
   2. Run file `start_docker.sh`. It's included ghc, ghci, stack, cabal, ...
 
+
+# Source code index
+
 Save example that we are done. You can search by Table Index.
 
-# Example
 ## Core features
 
  - [Hello world](src/hello_world.hs)
