@@ -29,6 +29,7 @@ Save example that we are done. You can search by Table Index.
  - [Import](src/import.hs)
 
 # Libraries
+ - [Data.Char](src/libraries/Data.Char.hs)
  - [Data.List](src/libraries/Data.List.hs)
 
 # Re-implement
