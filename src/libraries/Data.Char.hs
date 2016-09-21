@@ -1,9 +1,13 @@
 import qualified Data.Char as C
  
 main = do
-  putStrLn "\n\n--- Data.Char.ord ---"
+  putStrLn "\n\n--- Data.Char.chr ---"
   putStrLn $ show $ C.chr 97 -- a
   putStrLn $ show $ map C.chr [97..122] --  "abcdefghijklmnopqrstuvwxyz"
+
+  putStrLn "\n\n--- Data.Char.digitToInt ---"
+  putStrLn $ show $ C.digitToInt '2' -- 2
+  putStrLn $ show $ C.digitToInt 'A' -- 11 
 
   putStrLn "\n\n--- Data.Char.ord ---"
   putStrLn $ show $ C.ord 'a' -- 97
