@@ -9,6 +9,11 @@ main = do
   putStrLn $ show $ C.digitToInt '2' -- 2
   putStrLn $ show $ C.digitToInt 'A' -- 11 
 
+  putStrLn "\n\n--- Data.Char.isDigit ---"
+  putStrLn $ show $ C.isDigit '2' -- True
+  putStrLn $ show $ C.isDigit 'a' -- False
+  putStrLn $ show $ map C.digitToInt $ filter C.isDigit "a1b2c3d4e5" -- [1,2,3,4,5] 
+
   putStrLn "\n\n--- Data.Char.ord ---"
   putStrLn $ show $ C.ord 'a' -- 97
   putStrLn $ show $ map C.ord ['a'..'z'] -- [97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122]

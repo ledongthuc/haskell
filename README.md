@@ -31,6 +31,7 @@ Save example that we are done. You can search by Table Index.
 
 # Libraries
  - [Data.Char](src/libraries/Data.Char.hs)
+ - [Data.Map](src/libraries/Data.Map.hs)
  - [Data.List](src/libraries/Data.List.hs)
 
 # Re-implement
