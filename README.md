@@ -27,6 +27,7 @@ Save example that we are done. You can search by Table Index.
  - [Fold](src/fold.hs)
  - [Function Application](src/function_application.hs)
  - [Import](src/import.hs)
+ - [Maybe](src/maybe.hs)
 
 # Libraries
  - [Data.Char](src/libraries/Data.Char.hs)
