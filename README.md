@@ -28,6 +28,7 @@ Save example that we are done. You can search by Table Index.
  - [Function Application](src/function_application.hs)
  - [Import](src/import.hs)
  - [Maybe](src/maybe.hs)
+ - [Data Type](src/data_type.hs)
 
 # Libraries
  - [Data.Char](src/libraries/Data.Char.hs)
