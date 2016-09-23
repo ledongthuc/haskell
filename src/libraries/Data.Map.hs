@@ -24,3 +24,6 @@ main = do
   putStrLn "\n\n--- Data.Map.size ---"
   putStrLn $ show $ Data.Map.size $ Data.Map.fromList [(1, "a"), (2, "b")] -- 2
   putStrLn $ show $ Data.Map.size $ Data.Map.empty -- 0
+
+  putStrLn "\n\n--- Data.Map.toList ---"
+  putStrLn $ show $ Data.Map.toList $ Data.Map.fromList [(1, "a"), (2, "b")] -- [(1, "a"), (2, "b")]
