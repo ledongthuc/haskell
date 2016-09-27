@@ -1,3 +1,4 @@
+-- Usage for answer question in http://stackoverflow.com/questions/39694855/haskell-how-to-make-maybe-int-int/39714426#39714426
 import qualified Data.Char
 
 convertFirstToNegative :: [Int] -> [Int]
