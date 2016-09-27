@@ -25,13 +25,14 @@ Save example that we are done. You can search by Table Index.
  - [Let](src/examples/let.hs)
  - [Recursive](src/examples/recursive.hs)
  - [Curried Function](src/examples/curried_function.hs)
- - [Lambdas](src/examples/labdas.hs)
+ - [Lambdas](src/examples/lambdas.hs)
  - [Fold](src/examples/fold.hs)
  - [Function Application](src/examples/function_application.hs)
  - [Import](src/examples/import.hs)
  - [Maybe](src/examples/maybe.hs)
  - [Define Data Type](src/examples/define_data_type.hs)
  - [Derived Instance](src/examples/derived_instance.hs)
+ - [Type Synoyms](src/examples/derived_instance.hs)
 
 ### Library
 
