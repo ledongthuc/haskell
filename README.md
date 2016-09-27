@@ -8,35 +8,43 @@
 
 Save example that we are done. You can search by Table Index.
 
-## Core features
+## Examples
 
- - [Hello world](src/hello_world.hs)
- - [Simple Math](src/simple_mathermatics.hs)
- - [Boolean](src/boolean.hs)
- - [Function calling](src/function_calling.hs)
- - [Function define](src/function_define.hs)
- - [List](src/list.hs)
- - [List Comprehension](src/list_comprehension.hs)
- - [Tuple](src/tuple.hs)
- - [Matching Pattern](src/matching_pattern.hs)
- - [Guard](src/guard.hs)
- - [Let](src/let.hs)
- - [Recursive](src/recursive.hs)
- - [Curried Function](src/curried_function.hs)
- - [Lambdas](src/labdas.hs)
- - [Fold](src/fold.hs)
- - [Function Application](src/function_application.hs)
- - [Import](src/import.hs)
- - [Maybe](src/maybe.hs)
- - [Define Data Type](src/define_data_type.hs)
+### Core features
 
-# Libraries
- - [Data.Char](src/libraries/Data.Char.hs)
- - [Data.Map](src/libraries/Data.Map.hs)
- - [Data.List](src/libraries/Data.List.hs)
+ - [Hello world](src/examples/hello_world.hs)
+ - [Simple Math](src/examples/simple_mathermatics.hs)
+ - [Boolean](src/examples/boolean.hs)
+ - [Function calling](src/examples/function_calling.hs)
+ - [Function define](src/examples/function_define.hs)
+ - [List](src/examples/list.hs)
+ - [List Comprehension](src/examples/list_comprehension.hs)
+ - [Tuple](src/examples/tuple.hs)
+ - [Matching Pattern](src/examples/matching_pattern.hs)
+ - [Guard](src/examples/guard.hs)
+ - [Let](src/examples/let.hs)
+ - [Recursive](src/examples/recursive.hs)
+ - [Curried Function](src/examples/curried_function.hs)
+ - [Lambdas](src/examples/labdas.hs)
+ - [Fold](src/examples/fold.hs)
+ - [Function Application](src/examples/function_application.hs)
+ - [Import](src/examples/import.hs)
+ - [Maybe](src/examples/maybe.hs)
+ - [Define Data Type](src/examples/define_data_type.hs)
 
-# Re-implement
-## Prelude
+### Libraries
+
+ - [Data.Char](src/examples/libraries/Data.Char.hs)
+ - [Data.Map](src/examples/libraries/Data.Map.hs)
+ - [Data.List](src/examples/libraries/Data.List.hs)
+
+### Others
+
+ - [Data.Char](src/examples/others/intToArrayInt.hs)
+
+## Re-implement
+
+### Prelude
 
  - [And](src/pre-implement/prelude/and.hs)
  - [Elem](src/pre-implement/prelude/elem.hs)
@@ -50,3 +58,8 @@ Save example that we are done. You can search by Table Index.
  - [Take](src/pre-implement/prelude/take.hs)
  - [Zip](src/pre-implement/prelude/zip.hs)
  - [ZipWith](src/pre-implement/prelude/zipWith.hs)
+
+### Encoding
+  
+ - [Caesar](src/pre-implement/encoding/caesar.hs)
+ - [Quick Sort](src/pre-implement/sorts/quick_sort.hs)
