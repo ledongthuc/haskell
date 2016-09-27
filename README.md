@@ -31,6 +31,7 @@ Save example that we are done. You can search by Table Index.
  - [Import](src/examples/import.hs)
  - [Maybe](src/examples/maybe.hs)
  - [Define Data Type](src/examples/define_data_type.hs)
+ - [Derived Instance](src/examples/derived_instance.hs)
 
 ### Library
 
