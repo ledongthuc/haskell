@@ -10,7 +10,7 @@ Save example that we are done. You can search by Table Index.
 
 ## Examples
 
-### Core features
+### Core feature
 
  - [Hello world](src/examples/hello_world.hs)
  - [Simple Math](src/examples/simple_mathermatics.hs)
@@ -32,7 +32,7 @@ Save example that we are done. You can search by Table Index.
  - [Maybe](src/examples/maybe.hs)
  - [Define Data Type](src/examples/define_data_type.hs)
 
-### Libraries
+### Library
 
  - [Data.Char](src/examples/libraries/Data.Char.hs)
  - [Data.Map](src/examples/libraries/Data.Map.hs)
@@ -62,4 +62,7 @@ Save example that we are done. You can search by Table Index.
 ### Encoding
   
  - [Caesar](src/pre-implement/encoding/caesar.hs)
+
+### Sort
+  
  - [Quick Sort](src/pre-implement/sorts/quick_sort.hs)
