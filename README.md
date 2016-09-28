@@ -33,6 +33,7 @@ Save example that we are done. You can search by Table Index.
  - [Define Data Type](src/examples/define_data_type.hs)
  - [Derived Instance](src/examples/derived_instance.hs)
  - [Type Synonym](src/examples/type_synonym.hs)
+ - [Either](src/examples/either.hs)
 
 ### Library
 
