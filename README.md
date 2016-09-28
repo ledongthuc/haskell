@@ -34,6 +34,7 @@ Save example that we are done. You can search by Table Index.
  - [Derived Instance](src/examples/derived_instance.hs)
  - [Type Synonym](src/examples/type_synonym.hs)
  - [Either](src/examples/either.hs)
+ - [Recursive data type](src/examples/recursive_data_type.hs)
 
 ### Library
 
