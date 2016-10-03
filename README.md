@@ -70,3 +70,8 @@ Save example that we are done. You can search by Table Index.
 ### Sort
   
  - [Quick Sort](src/pre-implement/sorts/quick_sort.hs)
+
+# Articles
+
+ - [The Incomplete Guide to Lazy Evaluation](https://hackhands.com/guide-lazy-evaluation-haskell/)
+
