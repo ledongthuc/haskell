@@ -15,3 +15,4 @@ main = do
   putStrLn $ show $ (1,2) `X` ((3,4) `X` ((5,6) `X` Empty))         -- (1,2) `X` ((3,4) `X` ((5,6) `X` Empty))
   putStrLn $ show $ joinPairs ((1,2) `X` Empty) ((3,4) `X` ((5,6) `X` Empty))     -- (1,2) `X` ((3,4) `X` ((5,6) `X` Empty))
   putStrLn $ show $ headPair ((1,2) `X` ((3,4) `X` ((5,6) `X` Empty)))            -- (1,2)
+

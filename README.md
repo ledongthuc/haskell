@@ -35,6 +35,7 @@ Save example that we are done. You can search by Table Index.
  - [Type Synonym](src/examples/type_synonym.hs)
  - [Either](src/examples/either.hs)
  - [Recursive data type](src/examples/recursive_data_type.hs)
+ - [New instance of type class](src/examples/instance_of_type_class.hs)
 
 ### Library
 
