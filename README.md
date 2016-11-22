@@ -72,6 +72,25 @@ Save example that we are done. You can search by Table Index.
   
  - [Quick Sort](src/pre-implement/sorts/quick_sort.hs)
 
+## Play a game
+
+### 99 Questions
+
+Based on [Ninety-Nine Haskell Problems](https://wiki.haskell.org/H-99:_Ninety-Nine_Haskell_Problems) with 11 parts from haskell.org
+
+#### Part 1: Lists
+
+ - [Problem 1: Find the last element of a list](src/99-questions/problem-01.hs)
+ - [Problem 2: Find the last but one element of a list](src/99-questions/problem-02.hs)
+ - [Problem 3: Find the K'th element of a list](src/99-questions/problem-03.hs)
+ - [Problem 4: Find the number of elements of a list](src/99-questions/problem-04.hs)
+ - [Problem 5: Reverse a list](src/99-questions/problem-05.hs)
+ - [Problem 6: Find out whether a list is a palindrome](src/99-questions/problem-06.hs)
+ - [Problem 7: Flatten a nested list structure](src/99-questions/problem-07.hs)
+ - [Problem 8: Eliminate consecutive duplicates of list elements](src/99-questions/problem-08.hs)
+ - [Problem 9: Pack consecutive duplicates of list elements into sublists](src/99-questions/problem-09.hs)
+ - [Problem 10: Run-length encoding of a list](src/99-questions/problem-10.hs)
+
 # Articles
 
  - [The Incomplete Guide to Lazy Evaluation](https://hackhands.com/guide-lazy-evaluation-haskell/)
