@@ -9,11 +9,8 @@ data NestedList a = Elem a | List [NestedList a]
 
 myFlatten :: NestedList a -> [a]
 myFlatten (Elem a)      = [a]
-myFlatten (List (x:xs)) = (myFlatten x) ++ (myFlattens xs)
-
-myFlattens :: [NestedList a] -> [a]
-myFlattens []     = []
-myFlattens (x:xs) = (myFlatten x) ++ (myFlattens xs)
+myFlatten (List (x:xs)) = (myFlatten x) ++ (myFlatten (List xs))
+myFlatten (List [])     = []
 
 main = do
   putStrLn $ "myFlatten (Elem 1)                             : " ++ ( show $ myFlatten (Elem 1 ) )

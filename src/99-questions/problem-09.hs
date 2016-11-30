@@ -28,6 +28,7 @@ packItem (a:b:xs)
   | a!!0 == b!!0 = (a ++ b) : (packItem xs)
   | otherwise = a : (packItem (b : xs))
 
+
 main = do
   putStrLn $ "pack [1, 2, 3, 4]         : " ++ ( show $ pack [1, 2, 3, 4] )
   putStrLn $ "pack \"aaaabccaadeeee\"     : " ++ ( show $ pack "aaaabccaadeeee" )

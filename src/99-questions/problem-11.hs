@@ -4,7 +4,6 @@
  -   encode "aaaabccaadeeee"
  -   => [(4,'a'),(1,'b'),(2,'c'),(2,'a'),(1,'d'),(4,'e')]
 |-}
-import Data.List
 
 encode :: (Eq a) => [a] -> [(Integer, a)]
 encode []        = []
@@ -34,9 +33,6 @@ compareList [] _ = False
 compareList _ [] = False
 compareList (a:as) (b:bs) = ((snd a) == (snd b)) && compareList as bs
 
-encode':: (Eq a) => [a]->[(Int, a)]
-encode' xs = map (\x -> (length x, head x)) (group xs)
-
 main = do
   putStrLn $ "encode [1, 2, 3, 4]         : " ++ ( show $ encode [1, 2, 3, 4] )
   putStrLn $ "encode \"aaaabccaadeeee\"     : " ++ ( show $ encode "aaaabccaadeeee" )
@@ -44,5 +40,3 @@ main = do
   putStrLn $ "encode \"\"                   : " ++ ( show $ encode "" )
   putStrLn $ "encode \"a\"                  : " ++ ( show $ encode "a" )
   putStrLn $ "encode [1,2,2,3,3,3,4,4,4,4,5,5,5,5,5,6,6,6,6,6,6]     : " ++ ( show $ encode [1,2,2,3,3,3,4,4,4,4,5,5,5,5,5,6,6,6,6,6,6] )
-
-  putStrLn $ "encode' [1,2,2,3,3,3,4,4,4,4,5,5,5,5,5,6,6,6,6,6,6]     : " ++ ( show $ encode' [1,2,2,3,3,3,4,4,4,4,5,5,5,5,5,6,6,6,6,6,6] )
