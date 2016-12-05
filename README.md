@@ -37,6 +37,7 @@ Save example that we are done. You can search by Table Index.
  - [Recursive data type](src/examples/recursive_data_type.hs)
  - [New instance of type class](src/examples/instance_of_type_class.hs)
  - [Functor](src/examples/functor.hs)
+ - [I/O](src/examples/io.hs)
 
 ### Library
 
@@ -95,4 +96,5 @@ Based on [Ninety-Nine Haskell Problems](https://wiki.haskell.org/H-99:_Ninety-Ni
 # Articles
 
  - [The Incomplete Guide to Lazy Evaluation](https://hackhands.com/guide-lazy-evaluation-haskell/)
+ - [Making Efficient use of memory in Haskell](https://blog.pusher.com/making-efficient-use-of-memory-in-haskell/)
 
