@@ -38,6 +38,8 @@ Save example that we are done. You can search by Table Index.
  - [New instance of type class](src/examples/instance_of_type_class.hs)
  - [Functor](src/examples/functor.hs)
  - [I/O](src/examples/io.hs)
+ - [Stream](src/examples/stream.hs)
+ - [Read file](src/examples/read_file.hs)
 
 ### Library
 
