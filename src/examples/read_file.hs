@@ -1,4 +1,5 @@
 import System.IO
+import Data.Char
 
 {-|
 main = do
@@ -9,7 +10,13 @@ main = do
 |-}
 
 
+{-|
 main = withFile "README.md" ReadMode (\handle -> do
     contents <- hGetContents handle
     putStr contents
   )
+|-}
+
+main = do
+  contents <- readFile "README.md"
+  writeFile "README_CAP.md" (map toUpper contents)
