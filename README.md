@@ -40,6 +40,7 @@ Save example that we are done. You can search by Table Index.
  - [I/O](src/examples/io.hs)
  - [Stream](src/examples/stream.hs)
  - [Read file](src/examples/read_file.hs)
+ - [Argument](src/examples/argument.hs)
 
 ### Library
 
