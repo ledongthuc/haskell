@@ -41,6 +41,7 @@ Save example that we are done. You can search by Table Index.
  - [Stream](src/examples/stream.hs)
  - [Read file](src/examples/read_file.hs)
  - [Argument](src/examples/argument.hs)
+ - [Random](src/examples/random.hs)
 
 ### Library
 
