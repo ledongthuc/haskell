@@ -43,6 +43,8 @@ Save example that we are done. You can search by Table Index.
  - [Argument](src/examples/argument.hs)
  - [Random](src/examples/random.hs)
  - [Bytestrings](src/examples/bytestring.hs)
+ - [Applicative functor](src/examples/applicative_functor.hs)
+ - [Zip list](src/examples/zip_list.hs)
 
 ### Library
 
