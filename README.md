@@ -45,6 +45,7 @@ Save example that we are done. You can search by Table Index.
  - [Bytestrings](src/examples/bytestring.hs)
  - [Applicative functor](src/examples/applicative_functor.hs)
  - [Zip list](src/examples/zip_list.hs)
+ - [Monad](src/examples/monad.hs)
 
 ### Library
 
@@ -104,4 +105,6 @@ Based on [Ninety-Nine Haskell Problems](https://wiki.haskell.org/H-99:_Ninety-Ni
 
  - [The Incomplete Guide to Lazy Evaluation](https://hackhands.com/guide-lazy-evaluation-haskell/)
  - [Making Efficient use of memory in Haskell](https://blog.pusher.com/making-efficient-use-of-memory-in-haskell/)
+ - [Functors, Applicatives, And Monads In Pictures](http://adit.io/posts/2013-04-17-functors,_applicatives,_and_monads_in_pictures.html)
+ - [List Processing with Higher-Order Functions](https://medium.com/@ericjim/list-processing-with-higher-order-functions-3ce420ab133#.e2x0rvhxu)
 
