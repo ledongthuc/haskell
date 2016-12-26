@@ -29,4 +29,4 @@ main = do
  putStrLn $ "encodeDirect \"a\"                  : " ++ ( show $ encodeDirect "a" )
  putStrLn $ "encodeDirect [1,2,2,3,3,3,4,4,4,4,5,5,5,5,5,6,6,6,6,6,6]     : " ++ ( show $ encodeDirect [1,2,2,3,3,3,4,4,4,4,5,5,5,5,5,6,6,6,6,6,6] )
 
--- More solutions: https://wiki.haskell.org/99_questions/Solutions/11
+-- More solutions: https://wiki.haskell.org/99_questions/Solutions/13

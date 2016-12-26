@@ -101,6 +101,9 @@ Based on [Ninety-Nine Haskell Problems](https://wiki.haskell.org/H-99:_Ninety-Ni
  - [Problem 9: Pack consecutive duplicates of list elements into sublists](src/99-questions/problem-09.hs)
  - [Problem 10: Run-length encoding of a list](src/99-questions/problem-10.hs)
  - [Problem 11: Modified run-length encoding](src/99-questions/problem-11.hs)
+ - [Problem 12: Decode a run-length encoded list](src/99-questions/problem-12.hs)
+ - [Problem 13: Run-length encoding of a list (direct solution)](src/99-questions/problem-13.hs)
+ - [Problem 14: Duplicate the elements of a list](src/99-questions/problem-14.hs)
 
 # Articles
 
