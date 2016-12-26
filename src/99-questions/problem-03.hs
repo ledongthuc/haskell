@@ -21,3 +21,5 @@ main = do
   putStrLn $ "elementAt [1,2,3,4,5] 5          : " ++ ( show $ elementAt [1,2,3,4,5] 5 )
   putStrLn $ "elementAt [1,2,3,4,5] 6          : " ++ ( show $ elementAt [1,2,3,4,5] 6 )
   putStrLn $ "elementAt [1..] 6          : " ++ ( show $ elementAt [1..] 10000000000000000000000 )
+
+-- More solutions: https://wiki.haskell.org/99_questions/Solutions/3

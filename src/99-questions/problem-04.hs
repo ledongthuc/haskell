@@ -5,7 +5,7 @@
 |-}
 
 myLength :: [a] -> Integer
-myLength list = foldr (\ys y -> y + 1) 0 list
+myLength list = foldr (\_ y -> y + 1) 0 list
 
 main = do
   putStrLn $ "myLength [1, 2, 3, 4]         : " ++ ( show $ myLength [1, 2, 3, 4] )
@@ -14,3 +14,5 @@ main = do
   putStrLn $ "myLength [100]                : " ++ ( show $ myLength [100] )
   putStrLn $ "myLength ( []::[Char] )       : " ++ ( show $ myLength ( []::[Char] ) )
   putStrLn $ "myLength [1,2,3,4,5]          : " ++ ( show $ myLength [1,2,3,4,5] )
+
+-- More solutions: https://wiki.haskell.org/99_questions/Solutions/4

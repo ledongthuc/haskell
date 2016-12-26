@@ -5,7 +5,7 @@
 |-}
 
 myReverse :: [a] -> [a]
-myReverse list = foldl (\ys y -> y : ys) [] list
+myReverse = foldl (\ys y -> y : ys) []
 
 main = do
   putStrLn $ "myReverse [1, 2, 3, 4]         : " ++ ( show $ myReverse [1, 2, 3, 4] )
@@ -14,3 +14,5 @@ main = do
   putStrLn $ "myReverse ( []::[Char] )       : " ++ ( show $ myReverse ( []::[Char] ) )
   putStrLn $ "myReverse [1,2,3,4,5]          : " ++ ( show $ myReverse [1,2,3,4,5] )
   -- putStrLn $ "myReverse [1..]             : " ++ ( show $ myReverse [1..] )
+
+-- More solutions: https://wiki.haskell.org/99_questions/Solutions/5

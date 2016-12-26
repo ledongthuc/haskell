@@ -6,21 +6,18 @@
 |-}
 
 compress :: (Eq a) => [a] -> [a]
-compress []            = []
-compress (x1:[])       = [x1]
 compress (x1:x2:xs)
   | x1 == x2  = compress (x2:xs)
   | otherwise = x1 : compress (x2:xs)
+compress xs            = xs
 
 main = do
-  putStrLn $ "compress [1, 2, 3, 4]         : " ++ ( show $ compress [1, 2, 3, 4] )
-  putStrLn $ "compress ['x', 'y', 'z']      : " ++ ( show $ compress ['x', 'y', 'z'] )
-  putStrLn $ "compress [100]                : " ++ ( show $ compress [100] )
-  putStrLn $ "compress ( []::[Char] )       : " ++ ( show $ compress ( []::[Char] ) )
-  putStrLn $ "compress [1,2,3,4,5]          : " ++ ( show $ compress [1,2,3,4,5] )
-  putStrLn $ "compress [1,2,3,2,1]          : " ++ ( show $ compress [1,2,3,2,1] )
-  putStrLn $ "compress ['z','x','z']        : " ++ ( show $ compress ['z','x','z'] )
-  putStrLn $ "compress \"aaaabccaadeeee\"     : " ++ ( show $ compress "aaaabccaadeeee" )
-  putStrLn $ "compress \"\"                   : " ++ ( show $ compress "" )
-  putStrLn $ "compress \"a\"                  : " ++ ( show $ compress "a" )
-  -- putStrLn $ "compress [1..]             : " ++ ( show $ compress [1..] )
+  putStrLn $ "compress [1, 2, 2, 3, 3, 3, 4, 4, 4, 4]   : " ++ ( show $ compress [1, 2, 2, 3, 3, 3, 4, 4, 4, 4] )
+  putStrLn $ "compress ['x', 'y', 'z']                  : " ++ ( show $ compress ['x', 'x', 'y', 'y', 'y', 'z'] )
+  putStrLn $ "compress [100]                            : " ++ ( show $ compress [100] )
+  putStrLn $ "compress ( []::[Char] )                   : " ++ ( show $ compress ( []::[Char] ) )
+  putStrLn $ "compress \"aaaabccaadeeee\"                 : " ++ ( show $ compress "aaaabccaadeeee" )
+  putStrLn $ "compress \"\"                               : " ++ ( show $ compress "" )
+  putStrLn $ "compress \"a\"                              : " ++ ( show $ compress "a" )
+
+-- More solutions: https://wiki.haskell.org/99_questions/Solutions/8

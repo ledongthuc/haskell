@@ -7,12 +7,11 @@
 |-}
 
 pack :: (Eq a) => [a] -> [[a]]
-pack []        = []
-pack list = packLoop $ wrap list
+pack = packLoop . groupEachElements
 
-wrap :: [a] -> [[a]]
-wrap [] = []
-wrap (x:xs) = [x] : wrap xs 
+groupEachElements :: [a] -> [[a]]
+groupEachElements [] = []
+groupEachElements (x:xs) = [x] : groupEachElements xs 
 
 packLoop :: (Eq a) => [[a]] -> [[a]]
 packLoop [] = []
@@ -35,3 +34,5 @@ main = do
   putStrLn $ "pack \"aaabcaaadddddeee\"   : " ++ ( show $ pack "aaabcaaadddddeee" )
   putStrLn $ "pack \"\"                   : " ++ ( show $ pack "" )
   putStrLn $ "pack \"a\"                  : " ++ ( show $ pack "a" )
+
+-- More solutions: https://wiki.haskell.org/99_questions/Solutions/9

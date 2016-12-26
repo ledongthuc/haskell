@@ -1,42 +1,35 @@
 {-|
- - Run-length encoding of a list. Use the result of problem P09 to implement the so-called run-length encoding data compression method. Consecutive duplicates of elements are encoded as lists (N E) where N is the number of duplicates of the element E.
- - Example in Haskell: 
- -   encode "aaaabccaadeeee"
- -   => [(4,'a'),(1,'b'),(2,'c'),(2,'a'),(1,'d'),(4,'e')]
+ - Modified run-length encoding.
+ - Modify the result of problem 10 in such a way that if an element has no duplicates it is simply copied into the result list. Only elements with duplicates are transferred as (N E) lists.
+ - (encode-modified '(a a a a b c c a a d e e e e))')
+ - ((4 A) B (2 C) (2 A) D (4 E))
 |-}
 
-encode :: (Eq a) => [a] -> [(Integer, a)]
-encode []        = []
-encode list = packLoop $ wrap list
+import Data.List
 
-wrap :: [a] -> [(Integer, a)]
-wrap [] = []
-wrap (x:xs) = (1, x) : wrap xs 
+data ItemCounter a = Single a | Multiple Int a deriving (Show)
 
-packLoop :: (Eq a) => [(Integer, a)] -> [(Integer, a)]
-packLoop [] = []
-packLoop list 
-  | compareList list repackedList = list
-  | otherwise          = packLoop repackedList
-  where repackedList = packItem list
+encode :: (Eq a) => [a] -> [ItemCounter a]
+encode xs        = map (\x -> composeResult (x!!0) (length x) ) (group' xs)
+  where composeResult value l = if l == 1 then Single value else Multiple l value
 
-packItem :: (Eq a) => [(Integer, a)] -> [(Integer, a)]
-packItem [] = []
-packItem (a:[]) = [a]
-packItem (a:b:xs)
-  | (snd a) == (snd b) = ((fst a + fst b), snd a) : (packItem xs)
-  | otherwise = a : (packItem (b : xs))
+group' :: (Eq a) => [a] -> [[a]]
+group' [] = []
+group' (x:xs) = ( x:ys ) : group' zs
+  where (ys, zs) = span' (==x) xs
 
-compareList :: (Eq a) => [(Integer, a)] -> [(Integer, a)] -> Bool
-compareList [] [] = True
-compareList [] _ = False
-compareList _ [] = False
-compareList (a:as) (b:bs) = ((snd a) == (snd b)) && compareList as bs
+span' :: (Eq a) => (a -> Bool) -> [a] -> ([a], [a])
+span' _ xs@[] = (xs, xs)
+span' f xs@(x:xs')
+  | f x = let (ys, zs) = span' f xs' in (x:ys, zs)
+  | otherwise = ([], xs)
 
 main = do
-  putStrLn $ "encode [1, 2, 3, 4]         : " ++ ( show $ encode [1, 2, 3, 4] )
-  putStrLn $ "encode \"aaaabccaadeeee\"     : " ++ ( show $ encode "aaaabccaadeeee" )
-  putStrLn $ "encode \"aaabcaaadddddeee\"   : " ++ ( show $ encode "aaabcaaadddddeee" )
-  putStrLn $ "encode \"\"                   : " ++ ( show $ encode "" )
-  putStrLn $ "encode \"a\"                  : " ++ ( show $ encode "a" )
-  putStrLn $ "encode [1,2,2,3,3,3,4,4,4,4,5,5,5,5,5,6,6,6,6,6,6]     : " ++ ( show $ encode [1,2,2,3,3,3,4,4,4,4,5,5,5,5,5,6,6,6,6,6,6] )
+ putStrLn $ "encode [1,2,3,4,5,5,5]     : " ++ ( show $ encode [1,2,3,4,5,5,5] )
+ putStrLn $ "encode \"aaaabccaadeeee\"     : " ++ ( show $ encode "aaaabccaadeeee" )
+ putStrLn $ "encode \"aaabcaaadddddeee\"   : " ++ ( show $ encode "aaabcaaadddddeee" )
+ putStrLn $ "encode \"\"                   : " ++ ( show $ encode "" )
+ putStrLn $ "encode \"a\"                  : " ++ ( show $ encode "a" )
+ putStrLn $ "encode [1,2,2,3,3,3,4,4,4,4,5,5,5,5,5,6,6,6,6,6,6]     : " ++ ( show $ encode [1,2,2,3,3,3,4,4,4,4,5,5,5,5,5,6,6,6,6,6,6] )
+
+-- More solutions: https://wiki.haskell.org/99_questions/Solutions/11

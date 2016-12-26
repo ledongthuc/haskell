@@ -19,3 +19,5 @@ main = do
   putStrLn $ "isPalindrome [1,2,3,2,1]          : " ++ ( show $ isPalindrome [1,2,3,2,1] )
   putStrLn $ "isPalindrome ['z','x','z']          : " ++ ( show $ isPalindrome ['z','x','z'] )
   -- putStrLn $ "isPalindrome [1..]             : " ++ ( show $ isPalindrome [1..] )
+  --
+-- More solutions: https://wiki.haskell.org/99_questions/Solutions/6

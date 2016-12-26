@@ -100,6 +100,7 @@ Based on [Ninety-Nine Haskell Problems](https://wiki.haskell.org/H-99:_Ninety-Ni
  - [Problem 8: Eliminate consecutive duplicates of list elements](src/99-questions/problem-08.hs)
  - [Problem 9: Pack consecutive duplicates of list elements into sublists](src/99-questions/problem-09.hs)
  - [Problem 10: Run-length encoding of a list](src/99-questions/problem-10.hs)
+ - [Problem 11: Modified run-length encoding](src/99-questions/problem-11.hs)
 
 # Articles
 
@@ -107,4 +108,5 @@ Based on [Ninety-Nine Haskell Problems](https://wiki.haskell.org/H-99:_Ninety-Ni
  - [Making Efficient use of memory in Haskell](https://blog.pusher.com/making-efficient-use-of-memory-in-haskell/)
  - [Functors, Applicatives, And Monads In Pictures](http://adit.io/posts/2013-04-17-functors,_applicatives,_and_monads_in_pictures.html)
  - [List Processing with Higher-Order Functions](https://medium.com/@ericjim/list-processing-with-higher-order-functions-3ce420ab133#.e2x0rvhxu)
-
+ - [Haskell Pitfalls](http://lorepub.com/post/2016-12-17-Haskell-Pitfalls)
+ - [Twelve Monads of Christmas](https://medium.com/twelve-days-of-monad)

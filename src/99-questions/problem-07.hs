@@ -17,3 +17,5 @@ main = do
   putStrLn $ "myFlatten (List [Elem 1])                      : " ++ ( show $ myFlatten (List [Elem 1 ] ) )
   putStrLn $ "myFlatten (List [Elem 1 Elem 2])               : " ++ ( show $ myFlatten (List [Elem 1, Elem 2] ) )
   putStrLn $ "myFlatten (List [Elem 1 List [Elem 2 Elem 3]]) : " ++ ( show $ myFlatten (List [Elem 1, List [Elem 2, Elem 3]] ) )
+
+-- More solutions: https://wiki.haskell.org/99_questions/Solutions/7

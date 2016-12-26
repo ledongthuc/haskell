@@ -6,36 +6,19 @@
 |-}
 import Data.List
 
-encode :: (Eq a) => [a] -> [(Integer, a)]
-encode []        = []
-encode list = packLoop $ wrap list
+encode :: (Eq a) => [a] -> [(a, Int)]
+encode xs        = map (\x ->  (x!!0, length x) ) (group' xs)
 
-wrap :: [a] -> [(Integer, a)]
-wrap [] = []
-wrap (x:xs) = (1, x) : wrap xs 
+group' :: (Eq a) => [a] -> [[a]]
+group' [] = []
+group' (x:xs) = ( x:ys ) : group' zs
+  where (ys, zs) = span' (==x) xs
 
-packLoop :: (Eq a) => [(Integer, a)] -> [(Integer, a)]
-packLoop [] = []
-packLoop list 
-  | compareList list repackedList = list
-  | otherwise          = packLoop repackedList
-  where repackedList = packItem list
-
-packItem :: (Eq a) => [(Integer, a)] -> [(Integer, a)]
-packItem [] = []
-packItem (a:[]) = [a]
-packItem (a:b:xs)
-  | (snd a) == (snd b) = ((fst a + fst b), snd a) : (packItem xs)
-  | otherwise = a : (packItem (b : xs))
-
-compareList :: (Eq a) => [(Integer, a)] -> [(Integer, a)] -> Bool
-compareList [] [] = True
-compareList [] _ = False
-compareList _ [] = False
-compareList (a:as) (b:bs) = ((snd a) == (snd b)) && compareList as bs
-
-encode':: (Eq a) => [a]->[(Int, a)]
-encode' xs = map (\x -> (length x, head x)) (group xs)
+span' :: (Eq a) => (a -> Bool) -> [a] -> ([a], [a])
+span' _ xs@[] = (xs, xs)
+span' f xs@(x:xs')
+  | f x = let (ys, zs) = span' f xs' in (x:ys, zs)
+  | otherwise = ([], xs)
 
 main = do
   putStrLn $ "encode [1, 2, 3, 4]         : " ++ ( show $ encode [1, 2, 3, 4] )
@@ -45,4 +28,4 @@ main = do
   putStrLn $ "encode \"a\"                  : " ++ ( show $ encode "a" )
   putStrLn $ "encode [1,2,2,3,3,3,4,4,4,4,5,5,5,5,5,6,6,6,6,6,6]     : " ++ ( show $ encode [1,2,2,3,3,3,4,4,4,4,5,5,5,5,5,6,6,6,6,6,6] )
 
-  putStrLn $ "encode' [1,2,2,3,3,3,4,4,4,4,5,5,5,5,5,6,6,6,6,6,6]     : " ++ ( show $ encode' [1,2,2,3,3,3,4,4,4,4,5,5,5,5,5,6,6,6,6,6,6] )
+-- More solutions: https://wiki.haskell.org/99_questions/Solutions/10
