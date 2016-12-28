@@ -105,7 +105,8 @@ Based on [Ninety-Nine Haskell Problems](https://wiki.haskell.org/H-99:_Ninety-Ni
  - [Problem 13: Run-length encoding of a list (direct solution)](src/99-questions/problem-13.hs)
  - [Problem 14: Duplicate the elements of a list](src/99-questions/problem-14.hs)
  - [Problem 15: Replicate the elements of a list a given number of times](src/99-questions/problem-15.hs)
- - [Problem 14: Drop every N'th element from a list](src/99-questions/problem-16.hs)
+ - [Problem 16: Drop every N'th element from a list](src/99-questions/problem-16.hs)
+ - [Problem 17: Split a list into two parts; the length of the first part is given](src/99-questions/problem-16.hs)
 
 # Articles
 
