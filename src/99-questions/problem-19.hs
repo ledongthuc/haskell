@@ -7,6 +7,15 @@
  -    => "ghabcdef"
 |-} 
 
+rotate :: [a] -> Int -> [a]
+rotate []   _     = []
+rotate list 0     = list
+rotate list index = drop no $ take (l + no) $ cycle list
+  where l  = length list
+        no = (l + index) `mod` l
+
+{-|
+ - Fucking brain solution
 split :: [a] -> Int -> ([a], [a])
 split list 0 = ([], list)
 split [] _ = ([], [])
@@ -18,6 +27,7 @@ rotate :: [a] -> Int -> [a]
 rotate list size = right ++ left
   where modSize = if size < 0 then (length list) + size else  size
         (left, right) = split list modSize 
+|-}
 
 main = do
   putStrLn $ "rotate ['a','b','c','d','e','f','g','h'] 3    : " ++  ( show $ rotate ['a','b','c','d','e','f','g','h'] 3    )
