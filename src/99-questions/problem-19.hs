@@ -36,4 +36,4 @@ main = do
   putStrLn $ "rotate ([]::[Int]) (-10): " ++  ( show $ rotate ([]::[Int]) (-10))
   putStrLn $ "rotate ([]::[Int]) 10   : " ++  ( show $ rotate ([]::[Int]) 10   )
 
--- More solutions: https://wiki.haskell.org/99_questions/Solutions/18
+-- More solutions: https://wiki.haskell.org/99_questions/Solutions/19
