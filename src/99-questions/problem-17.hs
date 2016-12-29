@@ -9,10 +9,9 @@
 split :: [a] -> Int -> ([a], [a])
 split list 0 = ([], list)
 split [] _ = ([], [])
-split list size = foldr helper ([], []) (zip [0..] list)
-  where helper (index, value) (x, y)
-          | index < size = (value:x, y)
-          | otherwise    = (x      , value:y)
+split list size = (left, right)
+  where left = [xValue | (xIndex, xValue) <- (zip [0..] list), xIndex < size]
+        right = [yValue | (yIndex, yValue) <- (zip [0..] list), yIndex >= size ]
 
  -- Optimize by reduce without Zip action
 split' :: [a] -> Int -> ([a], [a])

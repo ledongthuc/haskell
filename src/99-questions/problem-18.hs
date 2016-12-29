@@ -6,8 +6,6 @@
  -    => "cdefg"
 |-} 
 
-newtype Parts a b c = Parts {getParts :: (a,b,c)}
-
 slice :: [a] -> Int -> Int -> [a]
 slice list 0 0     = list
 slice [] _ _       = []
