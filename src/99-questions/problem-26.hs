@@ -63,4 +63,4 @@ main = do
   putStrLn $ "combinations'' 4    []       : " ++ ( show $ combinations'' 4    ([]::[Int]))
   putStrLn $ "combinations'' (-1) \"abcdef\" : " ++ ( show $ combinations'' (-1) "abcdef"   )
 
--- More solutions: https://wiki.haskell.org/99_questions/Solutions/25
+-- More solutions: https://wiki.haskell.org/99_questions/Solutions/26

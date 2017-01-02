@@ -39,4 +39,4 @@ main = do
   diff_select' 6 1  >>= (\x -> return $ "diff_select' 6 1 : " ++ (show x)) >>= putStrLn
   diff_select' 6 6  >>= (\x -> return $ "diff_select' 6 6 : " ++ (show x)) >>= putStrLn
 
--- More solutions: https://wiki.haskell.org/99_questions/Solutions/20
+-- More solutions: https://wiki.haskell.org/99_questions/Solutions/24

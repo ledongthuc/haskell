@@ -106,7 +106,16 @@ Based on [Ninety-Nine Haskell Problems](https://wiki.haskell.org/H-99:_Ninety-Ni
  - [Problem 14: Duplicate the elements of a list](src/99-questions/problem-14.hs)
  - [Problem 15: Replicate the elements of a list a given number of times](src/99-questions/problem-15.hs)
  - [Problem 16: Drop every N'th element from a list](src/99-questions/problem-16.hs)
- - [Problem 17: Split a list into two parts; the length of the first part is given](src/99-questions/problem-16.hs)
+ - [Problem 17: Split a list into two parts; the length of the first part is given](src/99-questions/problem-17.hs)
+ - [Problem 18: Extract a slice from a list](src/99-questions/problem-18.hs)
+ - [Problem 19: Rotate a list N places to the left](src/99-questions/problem-19.hs)
+ - [Problem 20: Remove the K'th element from a list](src/99-questions/problem-20.hs)
+ - [Problem 21: Insert an element at a given position into a list](src/99-questions/problem-21.hs)
+ - [Problem 22: Create a list containing all integers within a given range](src/99-questions/problem-22.hs)
+ - [Problem 23: Extract a given number of randomly selected elements from a list](src/99-questions/problem-23.hs)
+ - [Problem 24: Lotto: Draw N different random numbers from the set 1..M](src/99-questions/problem-24.hs)
+ - [Problem 25: Generate the combinations of K distinct objects chosen from the N elements of a list](src/99-questions/problem-25.hs)
+ - [Problem 26: Generate the combinations of K distinct objects chosen from the N elements of a list](src/99-questions/problem-26.hs)
 
 # Articles
 

@@ -29,4 +29,4 @@ main = do
   putStrLn $ "range' 9    4   : " ++  ( show $ range' 9    4   )
   putStrLn $ "range' (-1) (-4): " ++  ( show $ range' (-1) (-4))
 
--- More solutions: https://wiki.haskell.org/99_questions/Solutions/20
+-- More solutions: https://wiki.haskell.org/99_questions/Solutions/22

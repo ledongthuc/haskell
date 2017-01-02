@@ -34,4 +34,4 @@ main = do
   putStrLn $ "insertAt 'X' ([]::Char)  5: " ++  ( show $ insertAt 'X' "abcd" 5 )
   putStrLn $ "insertAt 'X' ([]::Char)  (-1): " ++  ( show $ insertAt 'X' "abcd" (-1) )
 
--- More solutions: https://wiki.haskell.org/99_questions/Solutions/20
+-- More solutions: https://wiki.haskell.org/99_questions/Solutions/21

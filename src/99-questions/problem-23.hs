@@ -36,4 +36,4 @@ main = do
   rnd_select' "abcdefgh" 0 >>= (\x -> return $ "rnd_select' \"abcdefgh\" 0: " ++ (show $ x)) >>= putStrLn
   rnd_select' "abcdefgh" (-1) >>= (\x -> return $ "rnd_select' \"abcdefgh\" (-1): " ++ (show $ x)) >>= putStrLn
 
--- More solutions: https://wiki.haskell.org/99_questions/Solutions/20
+-- More solutions: https://wiki.haskell.org/99_questions/Solutions/23
