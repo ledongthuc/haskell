@@ -114,8 +114,10 @@ Based on [Ninety-Nine Haskell Problems](https://wiki.haskell.org/H-99:_Ninety-Ni
  - [Problem 22: Create a list containing all integers within a given range](src/99-questions/problem-22.hs)
  - [Problem 23: Extract a given number of randomly selected elements from a list](src/99-questions/problem-23.hs)
  - [Problem 24: Lotto: Draw N different random numbers from the set 1..M](src/99-questions/problem-24.hs)
- - [Problem 25: Generate the combinations of K distinct objects chosen from the N elements of a list](src/99-questions/problem-25.hs)
+ - [Problem 25: Generate a random permutation of the elements of a list.](src/99-questions/problem-25.hs)
  - [Problem 26: Generate the combinations of K distinct objects chosen from the N elements of a list](src/99-questions/problem-26.hs)
+ - [Problem 27: Group the elements of a set into disjoint subsets](src/99-questions/problem-27.hs)
+ - [Problem 28: Sorting a list of lists according to length of sublists](src/99-questions/problem-28.hs)
 
 # Articles
 
